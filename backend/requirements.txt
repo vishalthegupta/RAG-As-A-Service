@@ -1,0 +1,61 @@
+# FastAPI & Server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy[asyncio]==2.0.25
+asyncpg==0.29.0
+alembic==1.13.1
+psycopg2-binary==2.9.9
+
+# Pydantic
+pydantic==2.5.3
+pydantic-settings==2.1.0
+email-validator==2.1.0
+
+# Auth
+pyjwt==2.8.0
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+
+# Celery & Redis
+celery==5.3.6
+redis==5.0.1
+
+# Vector Store
+chromadb==0.4.22
+
+# Embeddings & ML
+sentence-transformers==2.3.1
+torch==2.1.2
+numpy==1.26.3
+
+# Document Processing
+PyMuPDF==1.23.21
+python-docx==1.1.0
+python-magic==0.4.27
+
+# LLM Providers
+aiohttp==3.9.1
+httpx==0.26.0
+
+# Logging
+structlog==24.1.0
+
+# Rate Limiting
+slowapi==0.1.9
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+httpx==0.26.0
+
+# Code Quality
+ruff==0.1.14
+black==24.1.1
+mypy==1.8.0
+
+# Utilities
+python-dotenv==1.0.0
